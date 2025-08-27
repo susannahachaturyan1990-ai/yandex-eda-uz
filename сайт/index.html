@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Стань партнёром сервиса Яндекс Еда</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .fade-in-up {
+      opacity: 0;
+      animation: fadeInUp 0.8s ease-out forwards;
+    }
+    .delay-1 { animation-delay: 0.2s; }
+    .delay-2 { animation-delay: 0.4s; }
+    .delay-3 { animation-delay: 0.6s; }
+    .delay-4 { animation-delay: 0.8s; }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-yellow-50 via-white to-yellow-100 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 text-gray-900 dark:text-gray-100 font-sans">
+
+  <!-- Hero Section -->
+  <section class="text-center py-20 px-6 fade-in-up">
+    <h1 class="text-3xl md:text-5xl font-bold mb-6 text-yellow-500">Стань партнёром сервиса Яндекс Еда в Узбекистане</h1>
+    <p class="text-lg md:text-xl mb-8">Гибкий график • Доход до 500 000 UZS/сутки • Выплаты каждый день</p>
+    <a href="https://reg.eda.yandex.uz/?advertisement_campaign=forms_for_agents&user_invite_code=e82aaa81699d42ec8f3926001fbcf5b3&utm_content=blank"
+       class="bg-yellow-400 text-black font-semibold px-8 py-4 rounded-2xl shadow-lg hover:bg-yellow-300 transition transform hover:scale-105 duration-300 text-lg">
+       Стать партнёром
+    </a>
+  </section>
+
+  <!-- Advantages -->
+  <section class="py-16 px-6 bg-gray-50 dark:bg-gray-800">
+    <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div class="bg-white dark:bg-gray-700 rounded-2xl shadow-lg p-6 text-center fade-in-up delay-1">
+        <h3 class="font-bold text-xl mb-3 text-yellow-500">Гибкий график</h3>
+        <p>Работай в удобное время</p>
+      </div>
+      <div class="bg-white dark:bg-gray-700 rounded-2xl shadow-lg p-6 text-center fade-in-up delay-2">
+        <h3 class="font-bold text-xl mb-3 text-yellow-500">Стабильный доход</h3>
+        <p>До 500 000 UZS/сутки</p>
+      </div>
+      <div class="bg-white dark:bg-gray-700 rounded-2xl shadow-lg p-6 text-center fade-in-up delay-3">
+        <h3 class="font-bold text-xl mb-3 text-yellow-500">Без опыта</h3>
+        <p>Просто начни доставлять заказы</p>
+      </div>
+      <div class="bg-white dark:bg-gray-700 rounded-2xl shadow-lg p-6 text-center fade-in-up delay-4">
+        <h3 class="font-bold text-xl mb-3 text-yellow-500">Выплаты каждый день</h3>
+        <p>На карты Uzcard/Humo</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Steps -->
+  <section class="py-20 px-6 text-center bg-gradient-to-br from-white via-yellow-50 to-yellow-100 dark:from-gray-800 dark:via-gray-700 dark:to-gray-800 fade-in-up">
+    <h2 class="text-3xl font-bold mb-8">Как начать работать</h2>
+    <ol class="space-y-4 text-left max-w-md mx-auto list-decimal list-inside text-lg">
+      <li>Оставь заявку онлайн</li>
+      <li>Пройди регистрацию</li>
+      <li>Выходи на линию</li>
+      <li>Начни зарабатывать</li>
+    </ol>
+  </section>
+
+  <!-- QR Code -->
+  <section class="py-20 px-6 text-center bg-gray-50 dark:bg-gray-800 fade-in-up">
+    <h2 class="text-3xl font-bold mb-6">Быстрая регистрация</h2>
+    <p class="mb-6 text-lg">Наведите камеру на QR-код и пройдите регистрацию</p>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAjoAAAI6AQAAAAAGM99tAAAFiElEQVR4nO2dS26sSBBFTzRIHoLkBXgpWTvoJVm9pLcDWEot4EkwtASKHuS3yoNuyWV1VvvmAAMFRyCFUzfjhzkPGesfj+GAQAIJJJBAAgkkkEAC/V9AlsYI7GasM5jNYJd66W5WD+yy55su3/FEAgn0EFBwd/cNYDogXM0I1xHYR8zm01jnwVltjP8GwODu7n4LetgTCSTQl8aY/u4zhF9gMLgBOBzA9GGEBbfgpxG22RzOeJvBcDz6iQQS6BFjvD8RFvD1MhzZvAe3df49Ovurs87DYUy/cfZveiKBBPoW0GojdoGoUFjNDPYXz+cOgOGzF/wJXk2gnwQiauWksweH6cCX6cB9A/dt8LTnRzksm3Lv0t+rCSQQrGZmNgPh+uL2fn1xuzDEmTrt5Yk7b07La8nveCKBBPrSiDr7RlycFteN8Yc9bVjfPiwerm8HfndTh68m0I8GZTWyAdGRt1HkNDQ/RIVSdHZzh9SIQP2BSIYJN07tOJI9J+3NkDX1lO5I2luWLVB/oGSYybyHuIGpLijdCXm1GM+l6RpSWEeWLVB/IKpRRzcfk3vjG6kaJNpzMflQXSqybIH6A1Hn4urIS3K6TtxRTh+Ni5DgB1mSyLIF6hRkF8Au04fFHBH2FwfOlO4U/CDmS63zacBpvuwjdpmOW9DDnkgggb44sm+khhXL3uRxuo6/hhypoUzhUaFIZwvUISiLierSm3KocZkO0uJxg+gRST8kB0laX8qyBeoPVHwjbT5INeDo/UgGnOy+erujN0U6W6AOQUmNJN91WRlOXpaMdTKv5i1/tkDPAfJlOrD3XGpAXDzGooPBzezFYzXCaiPu15Fo6OucUkv6fTWBfiio6OysmikaJMVncviRqWiQ4hGRP1ugXkHFnw1Unb0U7wcQXSDFhj2fG5qYjSxboM5AWWdP3jhDotku3MzPja/PvWSaSGcL1CeohBVvkvuCF5feBtRcvwXljQj0VKB9zPYcD81yf4bkz7b364hdpg/zv+aSN7J93xMJJNBXRq7wnY4R9tc4c/v6lkzcACz8Al9ncPYRC9ts+eISsOzv1QT60aC2KwPTAesMhKvh7DPO/oqzn7HExsJyjA7HWF0lj34igQR6yKgryHSiqOuwEbP5iMkjnsKP+Rzkc9LZAnUHamKQyU5zykjKFoEiwIcmITvvybIF6hPUZETFw8aVPaU4e64WK4a+QRNsl2UL1CGoidTUvJGawFprC6ipJSVMWaM3smyBOgO11lkKH71JhipZfyk/myxYst1rzhaoR1BTu15D5017qBKfaQ+roWvOFqhTUFsHuQDN1Aw3zdBKLnabs72hOVugLkFN5UHOyi4LyiacXlvsVMvWnC1QxyDaaZihkdNN55GaMgI0FWTKGxGoW1Dpn50TWNf5N6x/Hrnh327xstSZctpgnQcsLA5wPvyJBBLooaAzpUCFXJ2eejG8lTxVTnPfTrP37bT4mY/LPn4CPeyJBBLoK+NGWLdu6zYGmfe8LW8v3bWlRgTqD9RUizVW3LaCh7voTZO7Kt+IQL2C7v3ZzUcO7qsMqMU2bQaJ5myBegS1ofP2ax7Jxj/1z97gPoFVc7ZAHYK4nXrbWpmkS0r48aZ/dr5OOlugPkFNTJ1m4iavFmvBr5fU7HJOOlugbkGfvi1W87PTqrKEH5tmlW2rYVm2QD2C2u/UNA1Zc0iyftzjpqllneXVP1ugZwFN7umT65xmNichEr+kZzPxh3htcFf3M4GeAxSu1pgtwT/ShyLXtw+LJh+uL7nPTt48xasJ9JNA9zo72elUPkxDWTxOSbW0+X/lXqkRgfoC3ftGKDVid22Fm7L1aN7R5Y1WkAJ1CTL/52v+zVj7ezWBBBJIIIEEEkgggQT6z0B/A2wxHIGciGtTAAAAAElFTkSuQmCC" alt="QR Code" class="mx-auto w-48 h-48 shadow-lg rounded-xl">
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-yellow-400 text-center p-8 fade-in-up">
+    <p class="mb-2">&copy; 2025 Яндекс Еда Узбекистан</p>
+    <a href="https://reg.eda.yandex.uz/?advertisement_campaign=forms_for_agents&user_invite_code=e82aaa81699d42ec8f3926001fbcf5b3&utm_content=blank"
+       class="underline">Стать партнёром</a>
+  </footer>
+
+  <script>
+    // Запускаем анимации при скролле
+    const elements = document.querySelectorAll('.fade-in-up');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = 1;
+          entry.target.style.animationPlayState = 'running';
+        }
+      });
+    }, { threshold: 0.1 });
+
+    elements.forEach(el => {
+      observer.observe(el);
+    });
+  </script>
+</body>
+</html>
